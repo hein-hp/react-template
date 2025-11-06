@@ -1,5 +1,6 @@
 # React 项目工程结构推荐
 
+```
 src/
 ├── components/          # 可复用UI组件（按功能/业务划分）
 │   ├── common/          # 通用基础组件（与业务无关，可跨项目复用）
@@ -95,3 +96,4 @@ src/
 ├── index.css            # 入口样式（引入全局样式、主题样式）
 ├── vite-env.d.ts        # Vite类型声明（处理import.meta.env等Vite特有变量）
 └── declaration.d.ts     # 自定义类型声明（如图片、CSS模块的类型扩展）
+```
